@@ -1,0 +1,56 @@
+form {
+    margin-top: 20px;
+    max-width: 500px;
+    border-bottom: 3px solid black;
+}
+.item-form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+.item-form label {
+    width: 15%;
+    text-align: right;
+}
+.item-form input {
+    width: 90%;
+    padding: 5px;
+}
+
+.item-form .inputSendImage {
+    display: none;
+}
+
+.btnSendImage {
+    margin: 0 auto;
+}
+.item-form .labelSendImage {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid rgb(141, 141, 141);
+	width: fit-content;
+	margin: 0 auto;
+	font-size: 15px;
+	cursor: pointer;
+    width: 100%;
+}
+.labelSendImage:hover {
+	background-color: rgba(163, 163, 163, 0.301);
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(1, 82, 97);
+    border: none;
+    border-radius: 07px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgba(1, 83, 97, 0.6);
+}
+
+

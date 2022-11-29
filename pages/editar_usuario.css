@@ -1,0 +1,35 @@
+.skinUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skin {
+    width: 150px;
+	height: 150px;
+    
+}
+.skin .img-user {
+    width: 100%;
+	height: 100%;
+}
+
+.skinUser .inputSendImage {
+    display: none;
+}
+
+.labelSendImage {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid rgb(141, 141, 141);
+	width: fit-content;
+	margin: 0 auto;
+	font-size: 15px;
+	cursor: pointer;
+}
+.labelSendImage:hover {
+	background-color: rgba(163, 163, 163, 0.301);
+}
